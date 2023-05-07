@@ -1,0 +1,51 @@
+_id: req_1106294ac0424b2ab002594d78626986
+type: Request
+parentId: fld_553cccec72bf45288b0adea70430d906
+modified: 1683461651033
+created: 1683461651033
+url: "{{ _.base_url }}/user"
+name: Get all users
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: documentStatus
+    disabled: true
+    value: string
+  - name: type
+    disabled: true
+    value: string
+  - name: roles
+    disabled: true
+    value: string
+  - name: disabled
+    disabled: true
+    value: "true"
+  - name: banned
+    disabled: true
+    value: "true"
+  - name: approved
+    disabled: true
+    value: "true"
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: page
+    disabled: true
+    value: "0"
+  - name: search
+    disabled: true
+    value: string
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651033
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

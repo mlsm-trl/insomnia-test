@@ -1,0 +1,36 @@
+_id: req_e8ac8ef379b6403292c65cb8a6b1d7f5
+type: Request
+parentId: fld_2d81ae81864547f0abef6bb7c9768dcd
+modified: 1683461651078
+created: 1683461651078
+url: "{{ _.base_url }}/admin/proposals-and-requests"
+name: Get all proposals and requests timeline
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: banned
+    disabled: true
+    value: "true"
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: page
+    disabled: true
+    value: "0"
+  - name: search
+    disabled: true
+    value: string
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

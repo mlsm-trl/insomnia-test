@@ -1,0 +1,24 @@
+_id: req_763d7000d7ae4c13b644020337a28e0f
+type: Request
+parentId: fld_553cccec72bf45288b0adea70430d906
+modified: 1683461651036
+created: 1683461651036
+url: "{{ _.base_url }}/user/me"
+name: Get current user
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651036
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_7575c81c78d44b589211fd9f191b2133
+type: Request
+parentId: fld_5ae0bb13ecb74f1f820f009048c82c42
+modified: 1683461651149
+created: 1683461651149
+url: "{{ _.base_url }}/reset-password/validate"
+name: Validate reset password code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "token": "string"
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683461651149
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

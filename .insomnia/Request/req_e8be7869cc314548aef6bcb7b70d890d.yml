@@ -1,0 +1,24 @@
+_id: req_e8be7869cc314548aef6bcb7b70d890d
+type: Request
+parentId: fld_d5daf13969a04f3ba1f8ef2735d67355
+modified: 1683461651160
+created: 1683461651160
+url: "{{ _.base_url }}/plan/{{ _.planId }}"
+name: Get plan by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651160
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

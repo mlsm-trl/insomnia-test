@@ -1,0 +1,33 @@
+_id: req_624b74b715ee4120aa39f531c77818e9
+type: Request
+parentId: fld_dc1cc5a3092646cd9c8a2f0242a6af2d
+modified: 1683461651168
+created: 1683461651168
+url: "{{ _.base_url }}/professional/all"
+name: Get all professionals
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: search
+    disabled: true
+    value: string
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: page
+    disabled: true
+    value: "0"
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651168
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

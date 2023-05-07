@@ -1,0 +1,33 @@
+_id: req_c28648edb2284226a1e29b4a1a7f89fb
+type: Request
+parentId: fld_a243430b44474f2c9cd1756848c40b8c
+modified: 1683461651109
+created: 1683461651109
+url: "{{ _.base_url }}/client/all"
+name: Get all clients
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: search
+    disabled: true
+    value: string
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: page
+    disabled: true
+    value: "0"
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651109
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

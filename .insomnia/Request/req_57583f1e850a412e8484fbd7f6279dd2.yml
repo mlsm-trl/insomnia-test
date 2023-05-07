@@ -1,0 +1,24 @@
+_id: req_57583f1e850a412e8484fbd7f6279dd2
+type: Request
+parentId: fld_12b1ea9cf5614347b9a28926d9e5521f
+modified: 1683461651200
+created: 1683461651200
+url: "{{ _.base_url }}/rating/me"
+name: Get my ratings stats
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

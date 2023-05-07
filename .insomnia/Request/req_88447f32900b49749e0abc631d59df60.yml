@@ -1,0 +1,35 @@
+_id: req_88447f32900b49749e0abc631d59df60
+type: Request
+parentId: fld_12b1ea9cf5614347b9a28926d9e5521f
+modified: 1683461651203
+created: 1683461651203
+url: "{{ _.base_url }}/rating/{{ _.ratingId }}"
+name: Update rating
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "rating": "string",
+      "ratingDetails": "string",
+      "badges": [
+        {
+          "name": "string"
+        }
+      ]
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651203
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

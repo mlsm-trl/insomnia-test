@@ -1,0 +1,33 @@
+_id: req_b9bb25c9a2d64ce78af4a6b29b91f238
+type: Request
+parentId: fld_7d715d32c75b46609ea02e122ffce0ac
+modified: 1683461651236
+created: 1683461651236
+url: "{{ _.base_url }}/support/me"
+name: Get my tickets
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: search
+    disabled: true
+    value: string
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: page
+    disabled: true
+    value: "0"
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651236
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

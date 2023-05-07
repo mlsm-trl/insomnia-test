@@ -1,0 +1,24 @@
+_id: req_4f50390474be4f1bb7f2f539a599a118
+type: Request
+parentId: fld_a950b2f8602b46babbdbf44f91b632a5
+modified: 1683461651135
+created: 1683461651135
+url: "{{ _.base_url }}/event/{{ _.eventId }}/archive"
+name: Archive event
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651135
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

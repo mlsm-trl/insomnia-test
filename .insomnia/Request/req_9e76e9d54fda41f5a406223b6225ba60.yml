@@ -1,0 +1,31 @@
+_id: req_9e76e9d54fda41f5a406223b6225ba60
+type: Request
+parentId: fld_7d715d32c75b46609ea02e122ffce0ac
+modified: 1683461651239
+created: 1683461651239
+url: "{{ _.base_url }}/support/{{ _.ticketId }}"
+name: Update ticket
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "title": "string",
+      "description": "string",
+      "status": "string"
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651239
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

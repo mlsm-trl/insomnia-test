@@ -1,0 +1,24 @@
+_id: req_49fb2d75d5214184ab1a744112e7c676
+type: Request
+parentId: fld_a243430b44474f2c9cd1756848c40b8c
+modified: 1683461651122
+created: 1683461651122
+url: "{{ _.base_url }}/client/me/main"
+name: Get summary
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651122
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

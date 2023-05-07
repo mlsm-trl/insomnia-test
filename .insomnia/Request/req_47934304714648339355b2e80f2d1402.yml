@@ -1,0 +1,24 @@
+_id: req_47934304714648339355b2e80f2d1402
+type: Request
+parentId: fld_11cd6e55d26b4e80850bbeaa5820bf15
+modified: 1683461651208
+created: 1683461651208
+url: "{{ _.base_url }}/request/current"
+name: Get current request by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651208
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

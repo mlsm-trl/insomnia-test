@@ -1,0 +1,33 @@
+_id: req_fde02795a0af4a668df102e7e8af6763
+type: Request
+parentId: fld_90ddaeb4d0664b608613095b90ad0b5f
+modified: 1683461651188
+created: 1683461651188
+url: "{{ _.base_url }}/proposal/professional/{{ _.professionalId }}"
+name: Get all proposals
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: search
+    disabled: true
+    value: string
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: page
+    disabled: true
+    value: "0"
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_97c5d1f976024ffbb871c788b5f0d01a
+type: Request
+parentId: fld_57e41c5a4cb7440fbdccf774f25fbecc
+modified: 1683461651106
+created: 1683461651106
+url: "{{ _.base_url }}/user/me/cards/{{ _.cardId }}"
+name: Remove card
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651106
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

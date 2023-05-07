@@ -1,0 +1,30 @@
+_id: req_47a10fcbfe714154b85e90ec7838feab
+type: Request
+parentId: fld_553cccec72bf45288b0adea70430d906
+modified: 1683461651074
+created: 1683461651074
+url: "{{ _.base_url }}/user/me/geolocation"
+name: Update my geolocation
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "latitude": 0,
+      "longitude": 0
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651074
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

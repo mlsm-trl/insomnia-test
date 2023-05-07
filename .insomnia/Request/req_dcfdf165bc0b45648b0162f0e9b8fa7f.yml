@@ -1,0 +1,24 @@
+_id: req_dcfdf165bc0b45648b0162f0e9b8fa7f
+type: Request
+parentId: fld_90ddaeb4d0664b608613095b90ad0b5f
+modified: 1683461651195
+created: 1683461651195
+url: "{{ _.base_url }}/proposal/{{ _.proposalId }}/reject"
+name: Reject proposal
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651195
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

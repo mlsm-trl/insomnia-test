@@ -1,0 +1,24 @@
+_id: req_b5e53e6678a04bea87965704099225f9
+type: Request
+parentId: fld_d5daf13969a04f3ba1f8ef2735d67355
+modified: 1683461651166
+created: 1683461651166
+url: "{{ _.base_url }}/plan/{{ _.planId }}/disable"
+name: Disable plan for new subscriptions
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651166
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

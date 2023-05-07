@@ -1,0 +1,24 @@
+_id: req_109dfa121e5d43efb1d635eefde64236
+type: Request
+parentId: fld_90ddaeb4d0664b608613095b90ad0b5f
+modified: 1683461651190
+created: 1683461651190
+url: "{{ _.base_url }}/proposal/{{ _.id }}"
+name: Register new proposal
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651190
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

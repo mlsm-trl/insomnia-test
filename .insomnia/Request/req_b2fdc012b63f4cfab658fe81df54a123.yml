@@ -1,0 +1,26 @@
+_id: req_b2fdc012b63f4cfab658fe81df54a123
+type: Request
+parentId: fld_90ddaeb4d0664b608613095b90ad0b5f
+modified: 1683461651192
+created: 1683461651192
+url: "{{ _.base_url }}/proposal/{{ _.id }}"
+name: Update proposal
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651192
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

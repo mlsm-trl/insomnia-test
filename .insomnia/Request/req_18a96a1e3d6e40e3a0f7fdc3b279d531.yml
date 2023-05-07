@@ -1,0 +1,24 @@
+_id: req_18a96a1e3d6e40e3a0f7fdc3b279d531
+type: Request
+parentId: fld_2d81ae81864547f0abef6bb7c9768dcd
+modified: 1683461651079
+created: 1683461651079
+url: "{{ _.base_url }}/admin/statistics"
+name: Get general statistics
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651079
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

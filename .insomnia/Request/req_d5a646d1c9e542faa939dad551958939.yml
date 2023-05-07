@@ -1,0 +1,24 @@
+_id: req_d5a646d1c9e542faa939dad551958939
+type: Request
+parentId: fld_4496a891aa65473ca5db41104830c196
+modified: 1683461651062
+created: 1683461651062
+url: "{{ _.base_url }}/user/me/guests/count"
+name: Count all guests
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

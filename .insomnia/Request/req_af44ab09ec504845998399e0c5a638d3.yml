@@ -1,0 +1,24 @@
+_id: req_af44ab09ec504845998399e0c5a638d3
+type: Request
+parentId: fld_57e41c5a4cb7440fbdccf774f25fbecc
+modified: 1683461651103
+created: 1683461651103
+url: "{{ _.base_url }}/user/me/cards/{{ _.cardId }}"
+name: Get card by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651103
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

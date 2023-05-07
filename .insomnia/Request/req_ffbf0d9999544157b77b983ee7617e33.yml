@@ -1,0 +1,32 @@
+_id: req_ffbf0d9999544157b77b983ee7617e33
+type: Request
+parentId: fld_2d81ae81864547f0abef6bb7c9768dcd
+modified: 1683461651081
+created: 1683461651081
+url: "{{ _.base_url }}/admin/{{ _.adminId }}"
+name: Update admin
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "string",
+      "password": "string",
+      "name": "string",
+      "banned": true
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651081
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

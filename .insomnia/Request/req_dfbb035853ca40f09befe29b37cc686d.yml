@@ -1,0 +1,24 @@
+_id: req_dfbb035853ca40f09befe29b37cc686d
+type: Request
+parentId: fld_90ddaeb4d0664b608613095b90ad0b5f
+modified: 1683461651193
+created: 1683461651193
+url: "{{ _.base_url }}/proposal/{{ _.proposalId }}/chat"
+name: Chat
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651193
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_51302e3567b84758bc0e50218b3904d7
+type: Request
+parentId: fld_a243430b44474f2c9cd1756848c40b8c
+modified: 1683461651116
+created: 1683461651116
+url: "{{ _.base_url }}/client/{{ _.clientId }}"
+name: Get client by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651116
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

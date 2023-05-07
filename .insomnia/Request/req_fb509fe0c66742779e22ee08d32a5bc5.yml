@@ -1,0 +1,24 @@
+_id: req_fb509fe0c66742779e22ee08d32a5bc5
+type: Request
+parentId: fld_12b1ea9cf5614347b9a28926d9e5521f
+modified: 1683461651199
+created: 1683461651199
+url: "{{ _.base_url }}/rating/on/{{ _.userId }}"
+name: Get ratings on user
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651199
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

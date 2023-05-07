@@ -1,0 +1,44 @@
+_id: req_a4081f8774af43bfa17522cb34b46254
+type: Request
+parentId: fld_8b9703e6ace047719f6269d9872d5c26
+modified: 1683461651050
+created: 1683461651050
+url: "{{ _.base_url }}/user/complete-social-registration"
+name: Update user
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "cpf": "string",
+      "cep": "string",
+      "number": "string",
+      "adjunct": "string",
+      "password": "string",
+      "phone": "string",
+      "phoneIsWhatsapp": true,
+      "email": "user@example.com",
+      "gender": "string",
+      "birthdate": "2023-05-07T12:14:05.534Z",
+      "banned": true,
+      "disabled": true,
+      "approved": true,
+      "messagingToken": "string",
+      "bio": "string"
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651050
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

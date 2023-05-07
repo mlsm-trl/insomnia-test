@@ -1,0 +1,24 @@
+_id: req_581bcd27133149cbaa028b521887e554
+type: Request
+parentId: fld_54adf002bf1d415299deefed79084f1f
+modified: 1683461651217
+created: 1683461651217
+url: "{{ _.base_url }}/service/{{ _.serviceId }}"
+name: Get service by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651217
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

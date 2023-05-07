@@ -1,0 +1,24 @@
+_id: req_43a87dd79aff4aad8d26199ec9ba8865
+type: Request
+parentId: fld_e1cabb1c8c3849c39e6d591192ed5c00
+modified: 1683461651142
+created: 1683461651142
+url: "{{ _.base_url }}/log/{{ _.logId }}"
+name: Get log by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651142
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

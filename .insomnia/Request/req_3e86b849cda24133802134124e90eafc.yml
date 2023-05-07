@@ -1,0 +1,30 @@
+_id: req_3e86b849cda24133802134124e90eafc
+type: Request
+parentId: fld_3ced75b3e9f64cf79ab7e1caceed05bb
+modified: 1683461651069
+created: 1683461651069
+url: "{{ _.base_url }}/user/bookmarks"
+name: Get all bookmarks
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: page
+    disabled: true
+    value: "0"
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651069
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

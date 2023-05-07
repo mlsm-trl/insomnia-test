@@ -1,0 +1,24 @@
+_id: req_b487eff9518845c7ab24a29185f8a646
+type: Request
+parentId: fld_3ced75b3e9f64cf79ab7e1caceed05bb
+modified: 1683461651047
+created: 1683461651047
+url: "{{ _.base_url }}/user/{{ _.profileId }}/bookmark"
+name: Bookmark user
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651047
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

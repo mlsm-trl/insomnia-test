@@ -1,0 +1,24 @@
+_id: req_2e498d8feae94603b33c5b8c8db97ccb
+type: Request
+parentId: fld_553cccec72bf45288b0adea70430d906
+modified: 1683461651042
+created: 1683461651042
+url: "{{ _.base_url }}/user/{{ _.userId }}/documents/confirm"
+name: Approve documents
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651042
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

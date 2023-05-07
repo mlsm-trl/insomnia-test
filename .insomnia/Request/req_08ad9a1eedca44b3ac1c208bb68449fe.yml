@@ -1,0 +1,24 @@
+_id: req_08ad9a1eedca44b3ac1c208bb68449fe
+type: Request
+parentId: fld_dc1cc5a3092646cd9c8a2f0242a6af2d
+modified: 1683461651174
+created: 1683461651174
+url: "{{ _.base_url }}/professional/me/main"
+name: Get summary
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651174
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_a3b3099982074593b92fce634918f56c
+type: Request
+parentId: fld_57e41c5a4cb7440fbdccf774f25fbecc
+modified: 1683461651105
+created: 1683461651105
+url: "{{ _.base_url }}/user/me/cards/{{ _.cardId }}"
+name: Update card
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651105
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

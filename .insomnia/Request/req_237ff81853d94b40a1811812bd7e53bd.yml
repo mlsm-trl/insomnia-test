@@ -1,0 +1,24 @@
+_id: req_237ff81853d94b40a1811812bd7e53bd
+type: Request
+parentId: fld_f6d40bb3f0564b76b35b99913dbd473e
+modified: 1683461651227
+created: 1683461651227
+url: "{{ _.base_url }}/subscription/me/current"
+name: Get subscription by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651227
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

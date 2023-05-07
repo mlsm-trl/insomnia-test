@@ -1,0 +1,36 @@
+_id: req_f0259e25b735469f98398973991c9b6b
+type: Request
+parentId: fld_e32cd14cb5e242a4bed1c19e5f6169d0
+modified: 1683461651187
+created: 1683461651187
+url: "{{ _.base_url }}/professional-service"
+name: Add services on professional
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "professionalId": 0,
+      "services": [
+        {
+          "serviceId": 0,
+          "price": "string",
+          "time": 0
+        }
+      ]
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651187
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

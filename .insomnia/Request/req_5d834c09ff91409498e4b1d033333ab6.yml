@@ -1,0 +1,24 @@
+_id: req_5d834c09ff91409498e4b1d033333ab6
+type: Request
+parentId: fld_12b1ea9cf5614347b9a28926d9e5521f
+modified: 1683461651205
+created: 1683461651205
+url: "{{ _.base_url }}/rating/{{ _.ratingId }}/mark-as-reviewed"
+name: Mark rating as reviewed
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651205
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

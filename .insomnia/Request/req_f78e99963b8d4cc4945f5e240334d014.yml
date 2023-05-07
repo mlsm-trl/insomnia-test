@@ -1,0 +1,24 @@
+_id: req_f78e99963b8d4cc4945f5e240334d014
+type: Request
+parentId: fld_553cccec72bf45288b0adea70430d906
+modified: 1683461651039
+created: 1683461651039
+url: "{{ _.base_url }}/user/{{ _.userId }}/stats"
+name: Get user stats
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651039
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

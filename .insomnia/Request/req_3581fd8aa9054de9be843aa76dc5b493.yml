@@ -1,0 +1,31 @@
+_id: req_3581fd8aa9054de9be843aa76dc5b493
+type: Request
+parentId: fld_f6d40bb3f0564b76b35b99913dbd473e
+modified: 1683461651229
+created: 1683461651229
+url: "{{ _.base_url }}/subscription/new"
+name: Register new subscription
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "planId": 0,
+      "cardId": 0,
+      "cvv": "string"
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651229
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_fe0c72c7bfe94d1e928e377c91b305ae
+type: Request
+parentId: fld_5ae0bb13ecb74f1f820f009048c82c42
+modified: 1683461651151
+created: 1683461651151
+url: "{{ _.base_url }}/reset-password"
+name: Reset password
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "userId": 0,
+      "token": "string",
+      "newPassword": "string"
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683461651151
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

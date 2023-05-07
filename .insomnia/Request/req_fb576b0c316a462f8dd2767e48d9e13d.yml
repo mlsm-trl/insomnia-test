@@ -1,0 +1,24 @@
+_id: req_fb576b0c316a462f8dd2767e48d9e13d
+type: Request
+parentId: fld_2d81ae81864547f0abef6bb7c9768dcd
+modified: 1683461651083
+created: 1683461651083
+url: "{{ _.base_url }}/admin/{{ _.adminId }}"
+name: Remove admin
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651083
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

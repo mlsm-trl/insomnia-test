@@ -1,0 +1,26 @@
+_id: req_7491cbb6cd064a8795a051f25cf9e18f
+type: Request
+parentId: fld_5ae0bb13ecb74f1f820f009048c82c42
+modified: 1683461651148
+created: 1683461651148
+url: "{{ _.base_url }}/reset-password/request"
+name: Request to reset password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "user@example.com"
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683461651148
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_fa4ed7785ad24e10a4a4abb096b79d69
+type: Request
+parentId: wrk_67708ee63cea4d7492d840f0cd46a1ff
+modified: 1683461651158
+created: 1683461651158
+url: "{{ _.base_url }}/payment/notify"
+name: Reserved
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683461651158
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

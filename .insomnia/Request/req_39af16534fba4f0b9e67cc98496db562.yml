@@ -1,0 +1,24 @@
+_id: req_39af16534fba4f0b9e67cc98496db562
+type: Request
+parentId: fld_dc1cc5a3092646cd9c8a2f0242a6af2d
+modified: 1683461651176
+created: 1683461651176
+url: "{{ _.base_url }}/professional/{{ _.professionalId }}"
+name: Get professional by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

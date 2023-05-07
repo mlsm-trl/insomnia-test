@@ -1,0 +1,21 @@
+_id: req_ee9abfc6f0a84210a0df5205ef89dede
+type: Request
+parentId: wrk_67708ee63cea4d7492d840f0cd46a1ff
+modified: 1662152358689
+created: 1662152358689
+url: ""
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1662152358689
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

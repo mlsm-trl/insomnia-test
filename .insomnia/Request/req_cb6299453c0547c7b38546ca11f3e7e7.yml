@@ -1,0 +1,32 @@
+_id: req_cb6299453c0547c7b38546ca11f3e7e7
+type: Request
+parentId: fld_a243430b44474f2c9cd1756848c40b8c
+modified: 1683461651120
+created: 1683461651120
+url: "{{ _.base_url }}/client"
+name: Register new client
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "gender": "string",
+      "mobility": "string",
+      "mobilityDistance": 0,
+      "userId": 0
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651120
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

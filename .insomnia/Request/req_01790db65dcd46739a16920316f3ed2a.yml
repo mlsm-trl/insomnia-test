@@ -1,0 +1,25 @@
+_id: req_01790db65dcd46739a16920316f3ed2a
+type: Request
+parentId: fld_a950b2f8602b46babbdbf44f91b632a5
+modified: 1683461651132
+created: 1683461651132
+url: "{{ _.base_url }}/event"
+name: Register new event
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651132
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

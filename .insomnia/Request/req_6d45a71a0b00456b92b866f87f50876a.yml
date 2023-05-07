@@ -1,0 +1,24 @@
+_id: req_6d45a71a0b00456b92b866f87f50876a
+type: Request
+parentId: fld_a243430b44474f2c9cd1756848c40b8c
+modified: 1683461651118
+created: 1683461651118
+url: "{{ _.base_url }}/clientinvisible-mode/enable"
+name: Enable invisible mode
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651118
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

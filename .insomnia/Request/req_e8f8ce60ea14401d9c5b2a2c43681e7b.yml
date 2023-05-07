@@ -1,0 +1,29 @@
+_id: req_e8f8ce60ea14401d9c5b2a2c43681e7b
+type: Request
+parentId: fld_2831a4db49184c92a11902bd6fc8ce61
+modified: 1683461651097
+created: 1683461651097
+url: "{{ _.base_url }}/badge"
+name: Register new badge
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string"
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651097
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

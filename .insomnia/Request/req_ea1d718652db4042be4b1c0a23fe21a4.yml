@@ -1,0 +1,29 @@
+_id: req_ea1d718652db4042be4b1c0a23fe21a4
+type: Request
+parentId: fld_f6d40bb3f0564b76b35b99913dbd473e
+modified: 1683461651234
+created: 1683461651234
+url: "{{ _.base_url }}/subscription/{{ _.subscriptionId }}/change-plan"
+name: Change subscription plan
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "planId": 0
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651234
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

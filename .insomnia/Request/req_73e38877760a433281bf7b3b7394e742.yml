@@ -1,0 +1,24 @@
+_id: req_73e38877760a433281bf7b3b7394e742
+type: Request
+parentId: fld_a950b2f8602b46babbdbf44f91b632a5
+modified: 1683461651137
+created: 1683461651137
+url: "{{ _.base_url }}/event/{{ _.eventId }}/unarchive"
+name: Unarchive event
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651137
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

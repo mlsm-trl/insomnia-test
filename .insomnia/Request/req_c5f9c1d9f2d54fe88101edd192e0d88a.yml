@@ -1,0 +1,36 @@
+_id: req_c5f9c1d9f2d54fe88101edd192e0d88a
+type: Request
+parentId: fld_2d81ae81864547f0abef6bb7c9768dcd
+modified: 1683461651075
+created: 1683461651075
+url: "{{ _.base_url }}/admin"
+name: Get all admins
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: banned
+    disabled: true
+    value: "true"
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: page
+    disabled: true
+    value: "0"
+  - name: search
+    disabled: true
+    value: string
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651075
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_d0c534c2feea4896809cb97fd84e09e4
+type: Request
+parentId: fld_d5daf13969a04f3ba1f8ef2735d67355
+modified: 1683461651164
+created: 1683461651164
+url: "{{ _.base_url }}/plan"
+name: Register new plan
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "amount": "string",
+      "interval": "string",
+      "title": "string",
+      "forUser": "string",
+      "saleAmount": "string",
+      "enableSaleOffer": true,
+      "saleExpiresAt": "2023-05-07T12:14:05.536Z",
+      "temporary": true
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651164
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

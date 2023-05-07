@@ -1,0 +1,31 @@
+_id: req_9954e4b85ab6411689fe99ebb44df605
+type: Request
+parentId: fld_a243430b44474f2c9cd1756848c40b8c
+modified: 1683461651114
+created: 1683461651114
+url: "{{ _.base_url }}/client/me"
+name: Update client
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "gender": "string",
+      "mobility": "string",
+      "mobilityDistance": 0
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651114
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

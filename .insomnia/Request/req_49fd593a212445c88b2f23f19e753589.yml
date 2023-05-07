@@ -1,0 +1,25 @@
+_id: req_49fd593a212445c88b2f23f19e753589
+type: Request
+parentId: fld_54adf002bf1d415299deefed79084f1f
+modified: 1683461651218
+created: 1683461651218
+url: "{{ _.base_url }}/service/{{ _.serviceId }}"
+name: Update service
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651218
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

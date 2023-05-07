@@ -1,0 +1,24 @@
+_id: req_9a80754284e541d8bac4175949e3ba31
+type: Request
+parentId: fld_dc1cc5a3092646cd9c8a2f0242a6af2d
+modified: 1683461651180
+created: 1683461651180
+url: "{{ _.base_url }}/professional/me/photo/{{ _.photoId }}"
+name: Delete local photo
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651180
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

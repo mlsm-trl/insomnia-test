@@ -1,0 +1,33 @@
+_id: req_30d9336c5b914a61b64b9f662a3f6d03
+type: Request
+parentId: fld_57e41c5a4cb7440fbdccf774f25fbecc
+modified: 1683461651101
+created: 1683461651101
+url: "{{ _.base_url }}/user/me/cards/all"
+name: Get all cards
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: search
+    disabled: true
+    value: string
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: page
+    disabled: true
+    value: "0"
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651101
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

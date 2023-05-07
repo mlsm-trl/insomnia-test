@@ -1,0 +1,30 @@
+_id: req_0ec92db1ed3f480b8d20cba6bed7ace7
+type: Request
+parentId: fld_f6d40bb3f0564b76b35b99913dbd473e
+modified: 1683461651233
+created: 1683461651233
+url: "{{ _.base_url }}/subscription/{{ _.subscriptionId }}/change-payment-method"
+name: Change subscription payment method
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "cardId": 0,
+      "cvv": 0
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651233
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,42 @@
+_id: req_1b0df109f555402883cddf1153b7f638
+type: Request
+parentId: fld_eb5f7d72893e41c1b0e8529943f65b37
+modified: 1683461651113
+created: 1683461651113
+url: "{{ _.base_url }}/client/compatible-professionals"
+name: Get compatible professionals
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: by
+    disabled: true
+    value: string
+  - name: massages
+    disabled: true
+    value: "0"
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: page
+    disabled: true
+    value: "0"
+  - name: search
+    disabled: true
+    value: string
+  - name: geoLocation
+    disabled: true
+    value: string
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651113
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

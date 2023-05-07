@@ -1,0 +1,32 @@
+_id: req_b2253e00e5c746c39862f4adbeeda8a0
+type: Request
+parentId: fld_dc1cc5a3092646cd9c8a2f0242a6af2d
+modified: 1683461651177
+created: 1683461651177
+url: "{{ _.base_url }}/professional"
+name: Register new professional
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "gender": "string",
+      "mobility": "string",
+      "mobilityDistance": 0,
+      "userId": 0
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651177
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

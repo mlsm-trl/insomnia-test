@@ -1,0 +1,24 @@
+_id: req_2c34e1ed565c40698fbcc13d0fbe8e91
+type: Request
+parentId: fld_12b1ea9cf5614347b9a28926d9e5521f
+modified: 1683461651204
+created: 1683461651204
+url: "{{ _.base_url }}/rating/{{ _.ratingId }}"
+name: Remove rating
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651204
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

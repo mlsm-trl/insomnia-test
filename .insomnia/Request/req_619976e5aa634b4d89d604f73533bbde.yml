@@ -1,0 +1,28 @@
+_id: req_619976e5aa634b4d89d604f73533bbde
+type: Request
+parentId: fld_5ae0bb13ecb74f1f820f009048c82c42
+modified: 1683461651145
+created: 1683461651145
+url: "{{ _.base_url }}/authenticate-social"
+name: Authenticate with social account
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "socialId": "string",
+      "type": "string",
+      "authData": null
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683461651145
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_929eb433cc04495b9f90166ab815b889
+type: Request
+parentId: fld_7d715d32c75b46609ea02e122ffce0ac
+modified: 1683461651238
+created: 1683461651238
+url: "{{ _.base_url }}/support/{{ _.ticketId }}"
+name: Get ticket by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651238
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

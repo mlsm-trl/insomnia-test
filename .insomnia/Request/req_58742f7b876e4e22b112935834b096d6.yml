@@ -1,0 +1,36 @@
+_id: req_58742f7b876e4e22b112935834b096d6
+type: Request
+parentId: fld_12b1ea9cf5614347b9a28926d9e5521f
+modified: 1683461651198
+created: 1683461651198
+url: "{{ _.base_url }}/rating/all"
+name: Get all ratings
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: reviewed
+    disabled: true
+    value: "true"
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: page
+    disabled: true
+    value: "0"
+  - name: search
+    disabled: true
+    value: string
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651198
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

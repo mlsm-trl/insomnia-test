@@ -1,0 +1,35 @@
+_id: req_157a0942da194cacaaa8049add30e94b
+type: Request
+parentId: fld_12b1ea9cf5614347b9a28926d9e5521f
+modified: 1683461651201
+created: 1683461651201
+url: "{{ _.base_url }}/rating"
+name: Register new rating
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "proposalId": 0,
+      "messageId": 0,
+      "rating": "string",
+      "ratingDetails": "string",
+      "badges": [
+        0
+      ]
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651202
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

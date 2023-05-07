@@ -1,0 +1,29 @@
+_id: req_6fcc0f2be32544cba72099988b35ea16
+type: Request
+parentId: fld_553cccec72bf45288b0adea70430d906
+modified: 1683461651045
+created: 1683461651045
+url: "{{ _.base_url }}/user/me/messaging-token"
+name: Send FCM messaging token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "token": "string"
+    }
+parameters: []
+headers: []
+authentication:
+  type: basic
+  username: "{{ _.httpUsername }}"
+  password: "{{ _.httpPassword }}"
+metaSortKey: -1683461651045
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
